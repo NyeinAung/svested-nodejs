@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
+    "test": "mocha ./test/* --exit",
     "start": "node index.js",
     "debug": "node --debug index.js"
   },
@@ -18,8 +18,10 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "express-session-sqlite": "^2.0.8",
+    "mocha": "^8.3.2",
     "njwt": "^1.0.0",
     "nnode": "^0.3.3",
-    "sqlite3": "^5.0.1"
+    "sqlite3": "^5.0.1",
+    "supertest": "^6.1.3"
   }
 }
