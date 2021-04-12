@@ -3,6 +3,6 @@ const app = require("../index");
 
 describe("GET /", () => {
     it("respond with Svested App", (done) => {
-    request(app).get("/").expect("Svested", done);
+    request(app).get("/api/data").expect("Svested", done);
     })
 });

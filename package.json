@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/* --exit",
     "start": "node index.js",
     "debug": "node --debug index.js"
   },
